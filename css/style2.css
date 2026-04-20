@@ -1,0 +1,365 @@
+/** =========================
+   GLOBAL STYLES
+========================= */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f4f4f4;
+}
+
+/* =========================
+   NAVIGATION BAR
+========================= */
+nav {
+    position: sticky;
+    top: 0;
+    z-index: 99;
+    background: #861a1a;
+    padding: 10px 35px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.7);
+}
+
+/* Navigation links */
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bolder;
+    position: relative;
+}
+
+/* Hover underline effect */
+nav a::before {
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    height: 2px;
+    width: 100%;
+    background: rgba(226, 178, 33, 0.835);
+    border-radius: 1%;
+    transform: scaleX(0);
+    transition: transform 0.2s linear;
+}
+
+nav a:hover::before {
+    transform: scaleX(1);
+}
+
+/* Hover color */
+nav a:hover {
+    color: #0b000042;
+}
+
+/* =========================
+   MENU TOGGLE (Mobile)
+========================= */
+.menu-toggle {
+    display: none;
+    font-size: 24px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.nav-links {
+    display: flex;
+}
+
+/* =========================
+   LOGO
+========================= */
+.LOGO {
+    margin-right: auto;
+    padding: 12px 15px;
+    overflow: hidden;
+}
+
+.LOGO img {
+    height: 45px;
+    width: auto;
+    display: block;
+    filter: brightness(100%);
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+.LOGO img:hover {
+    transform: scale(1.05);
+    filter: grayscale(0%);
+}
+
+/* =========================
+   INFO / ABOUT TEXT
+========================= */
+.info h2 {
+    text-align: left;
+    font-size: 45px;
+    padding: 5px;
+    color: #000;
+}
+
+.info p {
+    text-align: left;
+    font-size: 20px;
+    color: #161414;
+}
+
+.info-icons {
+    height: 5px;
+    color: #322d2d;
+    padding-bottom: 45px;
+}
+
+.info-icons:hover::before {
+    opacity: 1;
+    transform: scale(1.02);
+}
+
+.info-icons:active::after {
+    background: transparent;
+}
+
+.info-icons:active {
+    font-weight: bold;
+}
+
+/* =========================
+   FOOTER
+========================= */
+.contact {
+    background: #4a0707;
+    color: white;
+    text-align: left;
+    padding: 5px 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.7);
+}
+
+footer {
+    text-align: center;
+    bottom: 0;
+    position: sticky;
+    padding: 5px;
+    z-index: 99;
+    background: #660002;
+    color: #fff;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.7);
+}
+
+/* =========================
+   ABOUT SECTION
+========================= */
+#about {
+    padding: 60px 20px;
+    background: #f8f8f8;
+}
+
+.about-container {
+    max-width: 900px;
+    margin: auto;
+    text-align: center;
+}
+
+.info-title h2 {
+    font-size: 32px;
+    color: #861a1a;
+    margin-bottom: 20px;
+}
+
+.about-text {
+    font-size: 17px;
+    line-height: 1.8;
+    margin-bottom: 18px;
+}
+
+/* =========================
+   MISSION SECTION
+========================= */
+.mission {
+    padding: 60px 20px;
+    background: #fff;
+}
+
+.mission h2 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 40px;
+    color: #861a1a;
+}
+
+.mission-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.mission-card {
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+    transition: 0.3s;
+}
+
+.mission-card:hover {
+    transform: translateY(-8px);
+}
+
+.mission-card i {
+    font-size: 35px;
+    color: #861a1a;
+    margin-bottom: 10px;
+}
+
+.mission-card h3 {
+    margin-bottom: 10px;
+}
+
+.mission-card p {
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+/* =========================
+   ABOUT SLIDER
+========================= */
+.about-slider {
+    padding: 60px 20px;
+    background: #f9f9f9;
+    text-align: center;
+}
+
+.about-slider h2 {
+    color: #000;
+    margin-bottom: 30px;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.slider {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+    padding: 10px;
+}
+
+.slides {
+    display: flex;
+    width: 400%; /* number of images × 100% */
+    animation: slide 16s infinite;
+}
+
+.slides img {
+    width: 25%; /* 100% ÷ number of images */
+    max-height: 250px;
+    object-fit: cover;
+    border-radius: 8px;
+    transition: transform 0.5s ease-in-out;
+    margin: 0 5px;
+}
+
+.slides img:hover {
+    transform: scale(1.00);
+}
+
+/* Slide animation */
+@keyframes slide {
+    0% { transform: translateX(0%); }
+    20% { transform: translateX(0%); }
+    25% { transform: translateX(-25%); }
+    45% { transform: translateX(-25%); }
+    50% { transform: translateX(-50%); }
+    70% { transform: translateX(-50%); }
+    75% { transform: translateX(-75%); }
+    95% { transform: translateX(-75%); }
+    100% { transform: translateX(0%); }
+}
+
+/* =========================
+   WHY SECTION
+========================= */
+.why {
+    background: #f5f5f5;
+    padding: 70px 20px;
+}
+
+.why h2 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+.why-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+}
+
+.why-box {
+    background: #fff;
+    padding: 30px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+.why-box i {
+    font-size: 35px;
+    color: #861a1a;
+    margin-bottom: 10px;
+}
+
+/* =========================
+   MOBILE RESPONSIVENESS
+========================= */
+@media (max-width: 770px) {
+
+    /* Slider images smaller */
+    .slides img {
+        width: 100%;
+        max-height: 200px;
+    }
+
+    /* Navbar adjustments */
+    nav {
+        flex-wrap: wrap;
+    }
+
+    .menu-toggle {
+        display: block;
+        padding: 18px;
+        margin-left: auto;
+    }
+
+    .nav-links {
+        width: 100%;
+        display: none;
+        flex-direction: column;
+        background: #861a1a;
+        margin-top: 10px;
+        border-radius: 8px;
+        overflow: hidden;
+        transition: all 0.3s ease;
+    }
+
+    .nav-links a {
+        padding: 12px;
+        margin: 0;
+        border-top: 1px solid rgba(255, 255, 255, 0.2);
+        display: block;
+    }
+
+    .nav-links a:hover {
+        background: rgba(255,255,255,0.1);
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+}

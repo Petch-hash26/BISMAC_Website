@@ -1,0 +1,55 @@
+Head Office: Carson Bldg., 188 Orense St., Guadalupe Nuevo. Makati City. 1212 Philippines
+Cebu: Hospicio De San Jose De Baril Bldg., M.J. Cuenco Avenue Cor. V. Gullas Sts. Cebu City 6000 Philippines
+Iloilo: Felinza Lin Chiu Bldg., Kauswagan Hiway, Cagayan de Oro City, 9000 Philippines
+Cagayan De Oro:2nd floor Elipe Bldg., Kausagan Hiway, Cagayan de Oro City, 9000 Phillippines
+Davao: Door. 5 Lowping Bldg., E. Quirino Ave. Davao City 8000 Philippines
+
+Homepage:
+Add some advertisement like promo or something to make the website interactive and
+About
+Mission
+Summary of equipments and softwares (examples)
+
+Products:
+Software
+Equipment
+
+
+
+Contacts:
+Addresses/Service Centre Location: So that people can know where place are near for their own destionation here are some branches:
+Head Office: Carson Bldg., 188 Orense St., Guadalupe Nuevo. Makati City. 1212 Philippines
+Cebu: Hospicio De San Jose De Baril Bldg., M.J. Cuenco Avenue Cor. V. Gullas Sts. Cebu City 6000 Philippines
+Iloilo: Felinza Lin Chiu Bldg., Kauswagan Hiway, Cagayan de Oro City, 9000 Philippines
+Cagayan De Oro:2nd floor Elipe Bldg., Kausagan Hiway, Cagayan de Oro City, 9000 Phillippines
+Davao: Door. 5 Lowping Bldg., E. Quirino Ave. Davao City 8000 Philippines
+
+Customer Service:So that people have someone to ask for help (You can make this an AI)
+
+Major Clients
+Petron
+San Miguel Corporation
+Land Bank of The Philippines
+Banco De Oro
+Bangjko Sentral ng Pilipinas
+Bank of Commerce
+PNB
+Metro Bank
+Mercury Drug
+Crown Worldwife Group
+SM SuperMarket/Hypermarket
+Chinabank
+Puregold
+Robinson Supermarket
+
+About:
+<p><b>Business Machine Corporation</b> is one of the largest integrated office machines and Equipment distributors in the Philippines. It began operating in 1954 as a department of Claude Wilson Trading. It was officially incorporated as a separate entity with Securities and Exchange
+                Commission on July 25, 1957 under Registration No.012913. <b>BISMAC</b> prides itself in having well trained technicians and carrying a wide inventory of spare parts. Customers can select from a variety of office machines ranging from simple stand-alone models to full network systems. 
+                Currently <b>BISMAC</b> is positioning the company as a total solutions provider. Our Customers tell us what they need and <b>BISMAC</b> provides a solution allowing our customers to concentrate on their business. <b>BISMAC</b> constantly looks for new technology to expand our selection of machines.
+                We have 6 branches nationwide, strategically located and with over 70 technical engineers to support our pre-sales and after-sales service.</p>
+
+Business Machines Corporation continues to grow with 67 Years of business in the Philippines. It has four wholly-owned branches in CEBU, ILOILO, DAVAO, and CAGAYAN DE ORO. Dealers are appointed to penetrate areas not within the general coverage of the branches. BISMAC guarantees quality office equipment, after sales service and customer satisfaction.
+
+            <div class="menu-toggle" id="menu-toggle">
+                <i class="fa-solid fa-bars"></i>
+            </div>

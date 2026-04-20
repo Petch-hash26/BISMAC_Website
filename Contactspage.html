@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="stylesheet" href="css/style4.css">
+        <title>BISMAC | Contacts</title>
+    </head>
+    <body>
+
+         <nav>
+            <div class="LOGO">
+                <img src="Pictures/bismac.png" alt="Logo">
+            </div>
+
+            <div class="menu-toggle" id="menu-toggle">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        
+            <div class="nav-links" id="nav-links">
+                <a href="Homepage.html"><i class="fa-solid fa-home"></i> Home</a>
+                <a href="Aboutpage.html"><i class="fa-solid fa-user"></i> About</a>
+                <a href="Productspage.html"><i class="fa-solid fa-box-open"></i> Products</a>
+                <a href="#"><i class="fa-solid fa-phone"></i> Contacts</a>
+            </div>
+        </nav>
+
+
+        <section id="contact" class="contact">
+        <h2>Contact Us:</h2>
+
+        <p><i class="fa-solid fa-envelope"></i> bismac@bismac.com.ph</p>
+        <p><i class="fa-solid fa-phone"></i> +63 2 8882-3355 | +63 2 7738-7770
+        F: +63 7738-7773</p>
+        <p><i class="fa-solid fa-location-dot"></i> Carson Bldg., 1888 Orense St., Guadalupe Nuevo, Makati City, Philippines 1212<br>
+        Cebu | Bacolod | Iloilo | Cagayan De Oro</p>
+        </section>
+
+        <footer>
+            <p>©2026 BISMAC | Business Machines Corporation. All right reserved.</p>
+        </footer>
+
+        <script>
+            const menuToggle = document.getElementById("menu-toggle");
+            const navLinks = document.getElementById("nav-links");
+
+            menuToggle.addEventListener("click", () => {
+                navLinks.classList.toggle("active");
+            })
+        </script>
+        
+    </body>
+    </html>
